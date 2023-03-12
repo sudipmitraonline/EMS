@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  background-color: #333; /* Background color */
+  position: absolute;
+  bottom: 0;
+  color: #fff; /* Text color */
+  width: 100%;
+  padding: 20px; /* Padding */
+  text-align: center; /* Center align text */
+  font-size: 14px; /* Font size */
+}
+
+.footer a {
+  color: #fff; /* Text color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+
+
