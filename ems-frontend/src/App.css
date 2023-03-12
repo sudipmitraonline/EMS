@@ -39,13 +39,14 @@
 
 .footer {
   background-color: #333; /* Background color */
-  position: absolute;
+  position: fixed;
   bottom: 0;
   color: #fff; /* Text color */
   width: 100%;
   padding: 20px; /* Padding */
   text-align: center; /* Center align text */
   font-size: 14px; /* Font size */
+  z-index: 999;
 }
 
 .footer a {
@@ -55,6 +56,51 @@
 
 .footer a:hover {
   text-decoration: underline; /* Add underline on hover */
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.header__logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header__logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header__nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header__nav-item {
+  margin-left: 20px;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__nav-link:hover {
+  text-decoration: underline;
 }
 
 
